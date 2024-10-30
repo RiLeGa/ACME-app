@@ -1,0 +1,30 @@
+body{
+    /* background-image: url(../images/fondoIgle.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150vw 100vh; */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 70vh;
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    height: 45px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

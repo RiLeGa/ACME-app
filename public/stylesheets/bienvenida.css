@@ -1,0 +1,42 @@
+.bienvenida{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tituloBienvenida{
+    text-align: center;
+} 
+.saludoBienvenida{
+    text-align: center;
+}
+.contBtnIngresar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btnIngresar{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    bottom: 35vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 193, 62);
+    padding: 10px;
+    border-radius: 10px;
+}
+.emanuelLogo{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    padding-left: 15px;
+    top: 5vh;
+}

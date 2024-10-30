@@ -1,0 +1,35 @@
+
+.opcionesHome{
+    width: 100vw;
+    height: 250px;
+    position: absolute;
+    top: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.emanuelLogoHome{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    padding-left: 15px;
+    top: 5vh;
+}
+.contBtnNvoReg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btnNvoReg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 193, 62);
+    padding: 10px;
+    border-radius: 10px;
+}

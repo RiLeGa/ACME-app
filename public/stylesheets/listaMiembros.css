@@ -1,0 +1,21 @@
+.contListaMiembros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:25vh;
+    width: 100vw;
+}
+.listaMiembros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    border: black solid 1px;
+    font-size: 15px;
+    text-align: center;
+}

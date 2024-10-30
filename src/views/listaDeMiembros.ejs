@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ("./partials/head",{title: "Iglesia Emanuel A.C.M.E"}) %>
+<body>
+    <img class="emanuelLogoHome" src="../images/emanuelLogo.png" alt="">
+    <section class="contListaMiembros">
+        <ul class="listaMiembros">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Nombre</th>
+                      <th scope="col">Apellido</th>
+                      <th scope="col">Edad</th>
+                      <th scope="col">Telefono</th>
+                      <th scope="col">Peticion</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% miembros.forEach(miembro => { %>
+                    <tr>
+                      <th scope="row"><%= miembro.id %></th>
+                      <td><%= miembro.nombre %></td>
+                      <td><%= miembro.apellido %> %></td>
+                      <td id=""><%= miembro.edad %></td>
+                      <td id=""><%= miembro.celular %></td>
+                      <td id=""><%= miembro.oracion %></td>
+                    </tr>
+                    <% }) %>
+                  </tbody>
+                </table>
+              </div>
+        </ul>
+    </section>
+</body>
+</html>
